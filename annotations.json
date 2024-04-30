@@ -1,0 +1,13 @@
+{
+  "$manifest": {
+    "mr_str:id": "0",
+    "mr_str:name": "Investment Portfolio Optimization Model",
+    "mr_str:description": "This is a first installment of the Investment portfolio opt. model\n",
+    "mr_str:owner": "mmortari",
+    "mr_json:customProperties": "{\"my-prop1\": {\"metadataType\": \"MetadataStringValue\", \"string_value\": \"ciao\"}, \"my-prop2\": {\"metadataType\": \"MetadataDoubleValue\", \"double_value\": 99.999}, \"Portfolio Optimization\": {\"metadataType\": \"MetadataStringValue\", \"string_value\": \"\"}, \"Investment Strategy\": {\"metadataType\": \"MetadataStringValue\", \"string_value\": \"\"}, \"Financial\": {\"metadataType\": \"MetadataStringValue\", \"string_value\": \"\"}}",
+    "mr_str:author": "mmortari",
+    "mr_str:uri": "https://github.com/tarilabs/demo20231212/raw/main/v1.nb20231206162408/mnist.onnx",
+    "mr_str:model_format_name": "onnx",
+    "mr_str:model_format_version": "1"
+  }
+}

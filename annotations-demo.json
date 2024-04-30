@@ -1,0 +1,11 @@
+{
+    "$manifest": {
+      "myann1": "mmortari"
+    },
+    "README.md": {
+      "readability": "good"
+    },
+    "swagger/swagger.json": {
+      "swagger format": "nice"
+    }
+}

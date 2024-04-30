@@ -1,0 +1,51 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/kubeflow/model-registry/main/api/openapi/model-registry.yaml#/components/schemas/RegisteredModel
+id: "0"
+name: "Investment Portfolio Optimization Model"
+description: |
+  Optimizes investment portfolios to maximize returns and minimize risks.
+owner: mmortari
+customProperties:
+  my-prop1:
+    metadataType: "MetadataStringValue"
+    string_value: "ciao"
+  my-prop2:
+    metadataType: "MetadataDoubleValue"
+    double_value: 99.999
+  Portfolio Optimization:
+    metadataType: "MetadataStringValue"
+    string_value: ""
+  Investment Strategy:
+    metadataType: "MetadataStringValue"
+    string_value: ""
+  Financial:
+    metadataType: "MetadataStringValue"
+    string_value: ""
+---
+# yaml-language-server: $schema=https://raw.githubusercontent.com/kubeflow/model-registry/main/api/openapi/model-registry.yaml#/components/schemas/ModelVersion
+id: "1"
+registeredModelId: "0"
+name: "v0.1"
+author: mmortari
+description: |
+  This is a first installment of the Investment portfolio opt. model
+customProperties:
+  my-mv-prop1:
+    metadataType: "MetadataStringValue"
+    string_value: "ciao"
+  my-mv-prop2:
+    metadataType: "MetadataDoubleValue"
+    double_value: 99.999
+---
+# yaml-language-server: $schema=https://raw.githubusercontent.com/kubeflow/model-registry/main/api/openapi/model-registry.yaml#/components/schemas/ModelArtifact
+artifactType: model-artifact
+name: portfolio.onnx
+uri: https://github.com/tarilabs/demo20231212/raw/main/v1.nb20231206162408/mnist.onnx
+model_format_name: "onnx"
+model_format_version: "1"
+customProperties:
+  license:
+    metadataType: "MetadataStringValue"
+    string_value: "Apache-2.0"
+  accuracy:
+    metadataType: "MetadataDoubleValue"
+    double_value: 99.999
